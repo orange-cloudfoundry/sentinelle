@@ -1,0 +1,12 @@
+---
+applications:
+- name: sentinelle
+  instances: 1
+  memory: 256M
+  host: <app_hostname>
+  domain: <my-domain.cf.io>
+  path: sentinelle-<latest_release_version>.jar
+  env:
+    # basic auth credentials
+    SECURITY_USER_NAME: user
+    SECURITY_USER_PASSWORD: changeit
