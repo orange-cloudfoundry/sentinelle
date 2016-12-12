@@ -1,4 +1,4 @@
-# sentinelle
+# sentinelle [![Build Status](https://travis-ci.org/orange-cloudfoundry/sentinelle.svg?branch=master)](https://travis-ci.org/orange-cloudfoundry/sentinelle)
 
 Whether it is for troubleshooting or monitoring, you may need to get information about network connectivity from 
 your CF Space. Sentinelle provides Ops with an HTTP API to run common network commands, such as :
